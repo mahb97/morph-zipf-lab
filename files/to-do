@@ -1,0 +1,32 @@
+morph-zipf-lab/
+├─ README.md
+├─ LICENSE
+├─ pyproject.toml
+├─ requirements.txt
+├─ .pre-commit-config.yaml
+├─ .gitignore
+├─ Makefile
+├─ src/morphzipf/
+│  ├─ __init__.py
+│  ├─ cli.py
+│  ├─ config.py
+│  ├─ ingest.py
+│  ├─ segment.py
+│  ├─ stats.py
+│  ├─ fits.py
+│  ├─ compare.py
+│  └─ plots.py
+├─ scripts/
+│  ├─ 00_quickstart.sh
+│  ├─ 10_ingest.py
+│  ├─ 20_segment.py
+│  ├─ 30_analyze.py
+│  └─ 40_make_figures.py
+├─ configs/
+│  └─ toy_en.yaml
+├─ tests/
+│  ├─ test_segment.py
+│  ├─ test_stats.py
+│  ├─ test_fits.py
+│  └─ fixtures/mini_corpus.txt
+└─ results/.gitkeep
